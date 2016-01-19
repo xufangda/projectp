@@ -2,7 +2,7 @@ header{
     background-image: url(../img/back.jpg) ;
     background-repeat: no-repeat;
     width:100%;
-    height:600px ;
+    height:550px ;
     display: block;
 }
 body{
@@ -15,7 +15,7 @@ body{
     height:10px;
 }
 .navbar-air{
-    background-color:rgba(0,0,0,.3)!important;
+    background-color:rgba(0,0,0,.5)!important;
     font-size:14px;
     margin:0px !important;
     border: 0px !important;
@@ -31,7 +31,7 @@ body{
 }
 .mainBanner{
     width: 100%;
-    height:50%;
+    height:500px;
     display: table;
 }
 .jumbotron{
@@ -39,6 +39,18 @@ body{
     display:table-cell;
     vertical-align: middle !important;
 }
+.searchbar-container{
+    height:50px;
+    background-color:rgba(0,0,0,.5);
+    display: table;
+    width: 100%;
+}
+
+.searchbar{
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .button-p{
     height:60px;
     line-height:60px;
