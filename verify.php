@@ -14,9 +14,6 @@ if (!empty($postStr))
 	//订阅与退订模块
 
 }
-
-
-
 else
 {
     echo "input something";
