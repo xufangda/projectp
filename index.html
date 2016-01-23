@@ -1,14 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html ng-app="myApp">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="image/1.jpg">
 
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"> </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <link rel="stylesheet" href="./css/projectP.css">
 
 </head>
@@ -52,23 +54,35 @@
         </div>
     </div>
     <div class="searchbar-container">
-
         <form action="" class="searchbar">
             <div class="container">
                 <div class="col-sm-4 ">
-                    <input href="#" class="serchItem form-control " placeholder="抵达机场" ></input>
+                    <input href="#" class="searchItem form-control " placeholder="抵达机场" ></input>
                 </div>
                 <div class="col-sm-2">
-                    <input href="#" class="serchItem form-control" placeholder="抵达日期" ></input>
+                    <input type="date" value="aDate" href="#" class="searchItem form-control" placeholder="抵达日期" ></input>
                 </div>
                 <div class="col-sm-2">
-                    <input href="#" class="serchItem form-control" placeholder="抵达时间" ></input>
+                    <input type="date" value="aTime" href="#" class="searchItem form-control" placeholder="抵达时间" ></input>
                 </div>
                 <div class="col-sm-2">
-                    <input href="#" class="serchItem form-control" placeholder="人数" ></input>
+                    <select href="#" ng-model="orderProp" class="searchItem form-control">
+                        <option value="name">Alphabetical</option>
+                        <option value="age">Newest</option>
+                        <option value="name">Alphabetical</option>
+                        <option value="age">Newest</option>
+                        <option value="name">Alphabetical</option>
+                        <option value="age">Newest</option>
+                        <option value="name">Alphabetical</option>
+                        <option value="age">Newest</option>
+                        <option value="name">Alphabetical</option>
+                        <option value="age">Newest</option>
+                        <option value="name">Alphabetical</option>
+                        <option value="age">Newest</option>
+                    </select>
                 </div>
                 <div class="col-sm-2">
-                    <button href="#" class="serchItem form-control btn btn-primary"  >Submit</button>
+                    <button href="#" class="serchItem form-control btn btn-primary" action="submit">Submit</button>
                 </div>
             </div>
         </form>

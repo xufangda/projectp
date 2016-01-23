@@ -77,3 +77,19 @@ body{
 .text-white{
     color:#fff !important;
 }
+.col-sm-4, .col-sm-2{
+    padding-left:0px;
+    padding-right:0px;
+    border-radius: 0px !important;
+}
+
+.searchItem{
+    display:block;
+
+}
+@media(max-width: 767px)
+{
+    .searchbar-container{
+        display:none
+    }
+}
