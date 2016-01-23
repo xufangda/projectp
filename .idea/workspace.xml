@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/css/projectP.css" line="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01d53f2-793d-4c48-8aea-1e9e53f114c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/verify.php" afterPath="$PROJECT_DIR$/verify.php" />
-    </list>
+    <list default="true" id="d01d53f2-793d-4c48-8aea-1e9e53f114c3" name="Default" comment="" />
     <ignored path="ProjectP.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -691,12 +689,12 @@
       <workItem from="1453287804838" duration="4382000" />
       <workItem from="1453398703125" duration="243000" />
       <workItem from="1453465864170" duration="3021000" />
-      <workItem from="1453573824147" duration="1157000" />
+      <workItem from="1453573824147" duration="1551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41976000" />
+    <option name="totallyTimeSpent" value="42370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1598" height="858" extended-state="0" />
